@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+    
+    <title>Portfólio | LR</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="cabecalho">
+          <div class="perfil">
+            <img class="perfil-foto" src="assets/img/foto.png"/>
+            <div class="titulo">
+              <h1>
+                Larissa Rocha
+              </h1>
+              <h3>
+                Desenvolvedora em desenvolvimento;
+              </h3>
+            </div>
+          </div>
+          <div class="tema">
+            <button onClick="mudaModo()"> &#9733; </button>
+          </div>
+        </header>
+    
+        <main class="content">
+            <section class="slider-wrapper">
+              <button class="slide-arrow" id="slide-arrow-prev">
+                &#8249;
+              </button>
+              <button class="slide-arrow" id="slide-arrow-next">
+                &#8250;
+              </button>
+              <ul class="slides-container" id="slides-container">
+                
+                <li class="slide">
+                  <h3>print("Hello world!")</h3>
+                  <div class="home">
+                    <div class="home_one">
+                    <p><br>def <b>sobre</b>():</p><p style="margin-left: 20px;">larissa = {<br>'nome': '<b>larissa</b>',<br>'atual_formacao': '<b>eng_software</b>',<br>'inicio_atual_formacao': '<b>03_2022</b>',<br>'primeira_formacao': 'antropologia',<br>'inicio_primeira_formacao': '02_2015'<br>}
+                    </p>
+                    </div>
+                    <div class="home_two">
+                      <p style="margin-top: 150px; margin-left: 200px;">for <b>arrow</b> in frame:<br>right = <b>click</b>()<br>left = None</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="slide">
+                <div class="about">
+                  <h2>Sobre...</h2>
+                  <p>Meu nome é Larissa Rocha, graduanda em Antropologia pela Universidade Federal Fluminense no período de 2015 a 2019, atualmente cursando Engenharia de Software pela Universidade de Vassouras.<br>
+                    O gosto pelos estudos humanos é de longa data, porém o interesse de imergir na área de tecnologia de forma acadêmica e profissional surgiu recentemente, após uma súbita curiosidade de entender as linguagens de programação.<br>
+                    No momento, faço estágio com foco em Desenvolvimento Web, abrangendo back-end e front-end.
+                  </p>
+                </div>
+                </li>
+
+                <li class="slide">
+                  <div class="exp">
+                    <p>Algumas ferramentas que tive contato durante minha experiência:</p>
+                    <div class="tools">
+                      <i class="fa fa-bitbucket fa-2x"></i>
+                      <i class="fa fa-codepen fa-2x"></i>
+                      <i class="fa fa-css3 fa-2x"></i>
+                      <iconify-icon icon="simple-icons:django" width="40" height="40"></iconify-icon> 
+                      <i class="fab fa-docker"></i>
+                      <i class="fa fa-git fa-2x"></i>
+                      <i class="fa fa-github-alt fa-2x"></i>
+                      <i class="fa fa-html5 fa-2x"></i>
+                      <i class="fab fa-js fa-2x"></i>
+                      <iconify-icon icon="codicon:terminal-linux" width="40" height="40"></iconify-icon>
+                      <iconify-icon icon="bxl:postgresql" width="40" height="40"></iconify-icon>
+                      <i class="fab fa-python fa-2x"></i>
+                      <i class="fa fa-trello fa-2x"></i>
+                      <i class="fa fa-windows fa-2x"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="slide">
+                  <div class="contact">
+                    <a href="mailto:larissarocha9@gmail.com" class="btn">
+                      <i class="fa fa-at fa-2x"></i>
+                    </a>
+                    <a href="+5521998526668" class="btn">
+                      <i class="fa fa-whatsapp fa-2x"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/larissa-rocha-6a7061234" class="btn">
+                      <i class="fa fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/roclari" class="btn">
+                      <i class="fa fa-github fa-2x"></i>
+                      </a>
+                  <div class="form">
+                    <h2>ENTRE EM CONTATO</h2>
+                    <form action="mailto:larissarocha9@gmail.com" method="POST">
+
+                        <div class="input-container">
+                            <input type="text" name="nome" placeholder="Nome"/>
+                        </div>
+                        
+                        <div class="input-container">
+                            <input type="text" name="email" placeholder="E-mail"/>
+                        </div>
+
+                        <div class="input-container">
+                          <select id="UF" name="UF">
+                            <option value="">Selecione o estado:</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espirito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                          </select>                          
+                        </div>
+
+                        <div class="input-container">
+                            <input type="text" name="msg" placeholder="Insira sua mensagem..."/>                                 
+                        </div>
+
+                        <div class="input-submit-container">
+                            <input type="submit" name="enviar" value="Enviar"/>
+                            <input type="reset" name="reset" value="Limpar"/>
+                        </div>
+                    </form>
+                  </div>
+                  </div>
+                </li>
+
+              </ul>
+            </section>
+
+        </main>
+    </div>
+</body>
+
+<script src="assets/js/main.js"></script>
+
+</html>
